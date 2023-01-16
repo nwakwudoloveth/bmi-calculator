@@ -193,7 +193,7 @@
     "jest": "^29.3.1"
   },
   "scripts": {
-    "test": "test:coveralls": "jest --coverage && coveralls < coverage/lcov.info"
+    "test":  "jest"
   },
   "repository": {
     "type": "git",
