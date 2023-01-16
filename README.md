@@ -1,83 +1,30 @@
-# Coyotiv - School of Software Engineering
-  ## NODE + PLANTUML starter Template  
+## Installation
+ calculate Bodu Mass Index with this simple bmi calculator
+  
 &nbsp;
 
----
+      ```sh
+      npm install bmi-calculator
+      ```
 
 &nbsp; 
  
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-&nbsp;  
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/coyotiv/sose-node)
-&nbsp;  
-
-Now you can directly work in your browser!  
+## Usage 
 &nbsp;
 
-## Getting started  
-&nbsp;
-- ### PLANTUML
-  &nbsp;
-  > **Note:**  
-    > - There is a **class.puml** example file located in the **_architecture_** folder.  
-  &nbsp;
-  <p>&nbsp;</p>
-
-  To start working **_*.puml_** files:  
+ ```sh
+      const bmi = require('bmi');
+       bmi(weight, height); // => (result)
+       bmi(100, 5.7); // => (3.077870113881194)
+      ```
   
-  - You can continue by editing the **class.puml** file   
-  - Add additional **_*.puml_** files on that folder too.  
-  &nbsp;  
 
-  If you what to visualize a preview of the **class.puml** file or another **_*.puml_** file on the project, please select the file and on your keyboard press the following keys:
-  <p>&nbsp;</p>  
 
-  - _MacOS_: **Option + D**  
-  
-  - _Linux/Windows_: **Alt + D**  
-  <p>&nbsp;</p>
-  The above commands will automatically open your a window and will show you live any updates that you make on the file.    
   <p>&nbsp;</p> 
 
-- ### NODE / JS  
-  &nbsp; 
-  > **Note:**
-    >-  _There is an **index.js** file located under the **_src_** folder_  
-    >-  _The **index.js** file, it's already linked with the debugger in your **launch.json**_  
-  &nbsp;   
-  <p>&nbsp;</p>  
 
-  To run the **index.js** file:
-    <p>&nbsp;</p> 
-
-    - with **_node_**, copy and enter one of the following commands on your terminal:
-
-      ```sh
-      npm start
-      ```
-      or:
-
-      ```sh
-      node src/index.js
-      ```
-    <p>&nbsp;</p>  
-
-    - with **_nodemon_**, copy and enter one of the following commands on your terminal:
-
-      ```sh
-      npm run dev
-      ```
-      or:
-
-      ```sh
-      nodemon src/index.js
-      ```
-  &nbsp;
----  
- &nbsp;  
-_Now that we are ready, let's have some coding fun!_
 
 ---
 
