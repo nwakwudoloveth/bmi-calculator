@@ -9,7 +9,7 @@ Calculate Body Mass Index with this simple bmi calculator
 &nbsp;
 
 ```
-npm install bmi-calculator
+npm install bmi-count
 ```
 
 &nbsp; 
