@@ -3,10 +3,9 @@
   
 &nbsp;
 
-      ```
-      npm install bmi-calculator
-
-      ```
+```
+npm install bmi-calculator
+```
 
 &nbsp; 
  
@@ -15,12 +14,12 @@
 ## Usage 
   &nbsp;
 
-      ```
+```
       const bmi = require('bmi');
        bmi(weight, height); // => (result)
        bmi(100, 5.7); // => (3.077870113881194)
 
-      ```
+```
   
 
 
