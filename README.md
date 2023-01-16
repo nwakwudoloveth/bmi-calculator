@@ -1,10 +1,11 @@
 ## Installation
- calculate Bodu Mass Index with this simple bmi calculator
+ calculate Body Mass Index with this simple bmi calculator
   
 &nbsp;
 
-      ```sh
+      ```
       npm install bmi-calculator
+
       ```
 
 &nbsp; 
@@ -12,12 +13,13 @@
 
 
 ## Usage 
-&nbsp;
+  &nbsp;
 
- ```sh
+      ```
       const bmi = require('bmi');
        bmi(weight, height); // => (result)
        bmi(100, 5.7); // => (3.077870113881194)
+
       ```
   
 
